@@ -1,0 +1,21 @@
+@tailwind base; /** global css reset 적용**/
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker {
+  font-size: 1.2rem !important; /* 기본보다 1.2배 정도 키움 */
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__month-container {
+  width: 100% !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  width: 3rem !important; /* 날짜 칸 너비 */
+  line-height: 3rem !important; /* 날짜 칸 높이 */
+  margin: 0.2rem !important;
+}
