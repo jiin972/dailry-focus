@@ -9,6 +9,7 @@ interface IFecthData {
   name: string;
 }
 const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+console.log('현재 사용중인 api키:', API_KEY);
 const CALENDAR_ID = 'ko.south_korea#holiday@group.v.calendar.google.com';
 const currentYear = new Date().getFullYear();
 const timeMin = `${currentYear - 1}-01-01T00:00:00Z`;
